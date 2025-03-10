@@ -1,21 +1,21 @@
 Guesses Available:
 You have 10 guesses available.
 
-Guess Deduction:
-
 Correct Guess:
 No guesses will be deducted if your guess is in the word.
+
 Incorrect Guess:
 If you guess a vowel that is not in the word, you lose two guesses.
 Otherwise (for a consonant), you lose one guess.
+
 Help Feature:
 You are able to ask for help by typing !. Each time you do so:
-
 It costs you 3 guesses.
 It reveals one letter in the word.
+
 Winning the Game:
 If you guess the word correctly within 10 guesses, you win and receive a score.
-Note: Your score depends on the number of guesses you took, so avoid spamming guesses.
+Note: Your score depends on the number of guesses you took, **so avoid spamming guesses!**
 
 Scoring Formula: total_score = (guesses_remaining + 4 × number of unique letters in secret_word) + (3 × length of secret_word)
 
